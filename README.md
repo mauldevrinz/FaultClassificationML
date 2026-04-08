@@ -253,13 +253,13 @@ fprintf('Fault: %s | Confidence: %.1f%% | Alert: %s\n', labelNames{cls}, conf, a
 
 ## References
 
-1. Zhao, M., et al. (2020). **A novel bearing faults diagnosis of rotor-bearing systems using a new multiplicative-threshold wavelet packet transform**. *Mechanical Systems and Signal Processing*, 144, 106933. [ScienceDirect](https://doi.org/10.1016/j.ymssp.2020.106933)
+1. Zhao, M., et al. (2020). **A novel bearing faults diagnosis of rotor-bearing systems using a new multiplicative-threshold wavelet packet transform**. *Mechanical Systems and Signal Processing*, 144, 106933. 
 
-2. Wen, L., et al. (2022). **A physics-informed deep learning approach for bearing fault detection**. *Engineering Applications of Artificial Intelligence*, 103, 104295. [ScienceDirect](https://doi.org/10.1016/j.engappai.2021.104295)
+2. Wen, L., et al. (2022). **A physics-informed deep learning approach for bearing fault detection**. *Engineering Applications of Artificial Intelligence*, 103, 104295.
 
-3. Immovilli, F., et al. (2021). **Enhanced approach for gears-bearings defect diagnosis based on complex shifted Morlet wavelets**. *ISA Transactions*, 111, 338–348. [ScienceDirect](https://doi.org/10.1016/j.isatra.2020.11.007)
+3. Immovilli, F., et al. (2021). **Enhanced approach for gears-bearings defect diagnosis based on complex shifted Morlet wavelets**. *ISA Transactions*, 111, 338–348.
 
-4. Li, X., et al. (2022). **Fault Diagnosis Method of Rolling Bearing Based on MSCNN-LSTM**. *Sensors*, 22(18), 6963. [MDPI](https://doi.org/10.3390/s22186963)
+4. Li, X., et al. (2022). **Fault Diagnosis Method of Rolling Bearing Based on MSCNN-LSTM**. *Sensors*, 22(18), 6963.
 
 ---
 
