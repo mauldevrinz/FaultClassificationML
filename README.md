@@ -24,7 +24,7 @@ A complete MATLAB-based machine learning system for classifying bearing faults i
 
 Bearing faults account for a significant proportion of rotating-machinery failures. Early detection prevents catastrophic breakdowns and reduces maintenance costs. This project implements a supervised classification pipeline that:
 
-- Generates **5 000 realistic sensor samples** using physics-informed relationships between RPM, temperature, vibration, current, pressure, and operating hours.
+- Generates **5,000 realistic sensor samples** using physics-informed relationships between RPM, temperature, vibration, current, pressure, and operating hours.
 - Trains a **6 → 20 → 15 → 5 ANN** using the Adam optimiser with cross-entropy loss.
 - Evaluates the model with a confusion matrix and per-class Precision / Recall / F1-Score.
 - Exposes a real-time prediction function that returns a fault class, confidence score, and an operational alert status.
@@ -62,7 +62,7 @@ FaultClassificationML/
 
 | Property | Value |
 |---|---|
-| Total samples | 5 000 |
+| Total samples | 5,000 |
 | Samples per class | 1 000 |
 | Number of features | 6 |
 | Number of classes | 5 |
@@ -239,7 +239,7 @@ fprintf('Fault: %s | Confidence: %.1f%% | Alert: %s\n', labelNames{cls}, conf, a
 
 | File | Location | Description |
 |---|---|---|
-| `sensor_data_5000.csv` | `data/` | All 5 000 samples with labels |
+| `sensor_data_5000.csv` | `data/` | All 5,000 samples with labels |
 | `training_data.csv` | `data/` | 3 500 normalised training samples |
 | `test_data.csv` | `data/` | 1 500 normalised test samples |
 | `trained_ann_model.mat` | `results/` | Network weights + normParams |

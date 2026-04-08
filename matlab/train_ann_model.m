@@ -230,7 +230,7 @@ function [dW, db] = backwardPass(X, Y, activations, W, b, numLayers)
 
         if l > 1
             dZ    = W{l}' * delta;
-            delta = dZ .* reluGradient(activations.Z{l});
+            delta = dZ .* reluGradient(activations.Z{l-1});
         end
     end
 end

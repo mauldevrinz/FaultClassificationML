@@ -138,7 +138,7 @@ reportPath = fullfile(resultsDir, 'training_report.txt');
 fid = fopen(reportPath, 'w');
 fprintf(fid, '=============================================================\n');
 fprintf(fid, '  BEARING FAULT CLASSIFICATION — TRAINING REPORT\n');
-fprintf(fid, '  Generated: %s\n', datestr(now, 'yyyy-mm-dd HH:MM:SS'));
+fprintf(fid, '  Generated: %s\n', char(datetime('now', 'Format', 'yyyy-MM-dd HH:mm:ss')));
 fprintf(fid, '=============================================================\n\n');
 fprintf(fid, 'Dataset\n');
 fprintf(fid, '  Total samples   : %d\n', numSamples);
